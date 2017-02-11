@@ -36,7 +36,6 @@ body {
 
     background-color: #ffffff;
 }
-
 .icon-circle {
 	display: inline-block;
 	background: #4C5259;
@@ -634,9 +633,9 @@ min-height: 754px;
 .logon-banner h2{
 	color:white;
 }
-.carousel {
-  height: 95vh !important;
-}
+/*.carousel {
+  height: 100vh !important;
+}*/
 
 .carousel,
 .item,

@@ -7,36 +7,31 @@
 
   <!--<header id="myCarousel" class="carousel slide">-->
     <!-- Wrapper for Slides -->
-    <div class="carousel-inner">
-        <div class="item active carousel-item">
-            <!-- Set the first background image using inline CSS below. -->
-            <div class="fill slide1"></div>
-            <div class="carousel-caption">
-                <!-- <h2>Caption 1</h2> -->
-            </div>
-        </div>
-        <div class="item carousel-item">
-            <!-- Set the second background image using inline CSS below. -->
-            <div class="fill slide2"></div>
-            <div class="carousel-caption">
-                <!-- <h2>Caption 2</h2> -->
-            </div>
-        </div>
-        <div class="item carousel-item">
-            <!-- Set the third background image using inline CSS below. -->
-            <div class="fill slide3"></div>
-            <div class="carousel-caption">
-                <!-- <h2>Caption 3</h2> -->
-            </div>
-        </div>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="fill slide1"></div>
     </div>
-    <!--
-    Controls --> <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <div class="carousel-item">
+      <div class="fill slide2" ></div>
+    </div>
+    <div class="carousel-item">
+      <div class="fill slide3"></div>
+    </div>
+  </div>
+  <overlay-text></overlay-text>
+ <a class="left" href="#carouselExampleIndicators" data-slide="prev">
         <img class="chevron chevron-left" src="../images/arrows-1.png" />
       </a>
- <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <a class="right" href="#carouselExampleIndicators" data-slide="next">
           <img class="chevron chevron-right" src="../images/arrows-3.png" />
-      </a>
+  </a>
+</div>
 <!--</header>-->
-<overlay-text></overlay-text>
+<!--<overlay-text></overlay-text>-->
 </template>
